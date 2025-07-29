@@ -32,8 +32,7 @@ export default function AllFiles({
   onFileSelect,
   selectedFile,
 }: HistoryPanelProps) {
-
-  console.log(selectedFile)
+  console.log(selectedFile);
 
   const getStatusColor = (status: UploadedFile["status"]) => {
     switch (status) {
@@ -92,12 +91,9 @@ export default function AllFiles({
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-3 text-xs text-gray-600 dark:text-gray-400">
                         <span>{file.uploadDate}</span>
-                        <span>•</span>
-                        <span>{file.language}</span>
                       </div>
 
                       <div className="flex items-center space-x-2">
-                        
                         {file.status === "done" && (
                           <button
                             onClick={(e) => {

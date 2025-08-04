@@ -10,6 +10,7 @@
 - 🌐 **Language Translation**: Converts content to 100+ languages using Azure Translator.
 - 📊 **Analytics Dashboard**: Real-time student insights via Power BI.
 - 🧠 **AI-Powered Simplification**: Uses Azure OpenAI to simplify complex content.
+- 🖼️ **Content-Based Image Generation**: Uses Azure OpenAI DALL·E model to generate meaningful visuals from textual content, aiding visual learners with context-rich illustrations.
 - ⚙️ **Low-Code Automation**: Built on Microsoft Power Apps and Power Automate.
 
 ---
